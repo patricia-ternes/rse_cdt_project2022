@@ -8,6 +8,7 @@
 
  | Project                                                                                                                                | Assignee                                                  |
  | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+ |Project Leader |  Patricia |
 | Writing the README      | Jo                |
  | Adding a license        |  Meg |
  |    Main code file   |  Jose, Abhi, Mostafa   |
