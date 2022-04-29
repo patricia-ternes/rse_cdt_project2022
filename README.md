@@ -6,19 +6,19 @@
  
 
 
-| Issue No | Project                                                                                                                                | Assignee                                                  |
-| ----- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| 1     | Writing the README      | Jo                |
-| 2     | Adding a license        |  Meg |
-| 3  |    Main code file   |  Jose, Abhi, Mostafa   |
-| 4  |  Create the project repo structure |  Cristina, Kasia  |
-| 5  |  Clean repository structure |  Ahmad |
-| 6  | Code formatting  | Mostafa  |
-| 7  |  Virtual environment  |  Luke  |
-|  8  | Test  | Usamah, Luke, Ahmad |
-|  9  | Final revision  |  Coker  |
-| 10  | Creating .gitignore file |  Kasia |  
-| -Add issue number  |  - Add other tasks  |   Add Assignee|
+ | Project                                                                                                                                | Assignee                                                  |
+ | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
+| Writing the README      | Jo                |
+ | Adding a license        |  Meg |
+ |    Main code file   |  Jose, Abhi, Mostafa   |
+ |  Create the project repo structure |  Cristina, Kasia  |
+|  Clean repository structure |  Ahmad |
+ | Code formatting  | Mostafa  |
+ |  Virtual environment  |  Luke  |
+ | Test  | Usamah, Luke, Ahmad |
+ | Final revision  |  Coker  |
+ | Creating .gitignore file |  Kasia |  
+  |  - Add other tasks  |   -Add Assignee|
 
 
 ### Project description
