@@ -10,14 +10,15 @@
 | ----- | -------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | 1     | Writing the README      | Jo                |
 | 2     | Adding a license        |  Meg |
-| 3  |    Main code file   |  Jose   |
-| 4  |  Create the project repo structure |  Cristina  |
+| 3  |    Main code file   |  Jose, Abhi, Mostafa   |
+| 4  |  Create the project repo structure |  Cristina, Kasia  |
 | 5  |  Clean repository structure |  Ahmad |
 | 6  | Code formatting  | Mostafa  |
 | 7  |  Virtual environment  |  Luke  |
-|  8  | Test  | Usamah  |
+|  8  | Test  | Usamah, Luke, Ahmad |
 |  9  | Final revision  |  Coker  |
-| 10  |  - Add other tasks  |   - Add Assignee|
+|   |     |      Rhiannon  |
+| -Add issue number  |  - Add other tasks  |   Add Assignee|
 
 
 ### Project description
