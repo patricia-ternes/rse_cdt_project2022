@@ -17,7 +17,7 @@
 | 7  |  Virtual environment  |  Luke  |
 |  8  | Test  | Usamah, Luke, Ahmad |
 |  9  | Final revision  |  Coker  |
-|   |     |      Rhiannon  |
+| 10  | Creating .gitignore file |  Kasia |  
 | -Add issue number  |  - Add other tasks  |   Add Assignee|
 
 
