@@ -1,0 +1,49 @@
+# Step 1: Receive Radius value:
+radius = input("Enter radius (m): ")
+radius = int(radius)
+from cmath import pi
+from numbers import Real
+from turtle import circle
+import numpy as np
+import random
+import pytest
+import time
+
+# initialise variables and counters
+tic = time.time()
+inside_points = 0
+outside_points = 0
+error = 1
+desired_error = 0.001
+Real_Area = (radius ** 2) * np.pi
+# iteration_number = 0 Can implement this as a failsafe in case while loop doesn't converge, by putting an if: break in lines 35-36
+# Need to make loop starting here
+while error > desired_error:
+
+    # Step 2: generate random x and y value inside a line of 2*radius size
+
+    x_coord = ((random.random() * 2) - 1) * radius
+    y_coord = ((random.random() * 2) - 1) * radius
+
+    # Check if within or outside circle. Need to calculate distance from origin. If < radius, within.
+
+    dist = np.sqrt(x_coord ** 2 + y_coord ** 2)
+
+    if dist < radius:
+        inside_points = inside_points + 1
+    else:
+        outside_points = outside_points + 1
+
+    square_area = 4 * radius ** 2
+    circle_area = inside_points / (inside_points + outside_points) * square_area
+
+    error = abs((circle_area - Real_Area) / Real_Area) * 100
+    # iteration_number = iteration_number + 1
+    # if iteration_n
+pi_estimate = circle_area / (radius ** 2)
+toc = time.time()
+time_taken = toc - tic
+
+print(
+    f"\nFor radius {radius}m, the area estimate is {circle_area}m^.\nPi is {pi_estimate}. \nThe final percentage error was {error}%.\nTime taken: {time_taken}s"
+)
